@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+li {
+  text-decoration: none;
+  padding: 10px;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+}
+svg {
+  color: #5f6368;
+  opacity: 1;
+  width: 40px;
+}
+
+.sign-in {
+  padding: 9px 23px;
+  background-color: #1a73e8;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
